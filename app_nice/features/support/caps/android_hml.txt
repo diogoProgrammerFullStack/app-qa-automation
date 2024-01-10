@@ -1,0 +1,6 @@
+[caps]
+automationName = "UIAutomator2"
+platformName = "Android"
+deviceName = "SM_A725M"
+udid = "RX8T206N9FR"
+app = "C:\\App Bk\\app-burgerking-debug.apk"

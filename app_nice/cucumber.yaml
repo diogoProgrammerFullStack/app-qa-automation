@@ -1,0 +1,10 @@
+default: -p bdd -p allure
+bdd: --format pretty
+allure: --format AllureCucumber::CucumberFormatter --out=logs 
+
+
+# Para uso de reports com padrão html 
+# default: -p bdd -p html #allure
+# bdd: --format pretty
+# html: --format html --out=logs/report.html
+# allure: --format AllureCucumber::CucumberFormatter --out=logs 
